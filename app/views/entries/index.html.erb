@@ -9,7 +9,7 @@ Foodlog &ndash; <%= DateTime.now().to_s[0..9] %>
       <div class="card">
         <header class="card-header">
           <p class="card-header-title">
-            <%= entry.meal_type %>
+            <%= entry.meal_type %> | <%= entry.category.title if entry.category.present? %>
           </p>
         </header>
 
@@ -29,9 +29,6 @@ Foodlog &ndash; <%= DateTime.now().to_s[0..9] %>
     </div>
   <% end %>
 </div>
-
-
-<%= link_to "New entry", new_entry_path %>
 
 <div class="columns is-centered mt-6">
   <%= link_to "View all entries", archives_index_path, class: "button is-link is-outlined is-centered" %>

@@ -1,11 +1,10 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  meal_type: MyString
+  meal_type: 'Bre'
   calories: 1
   protients: 1
   carbohydrates: MyString
-  integer: MyString
   fats: 1
 
 two:
@@ -13,5 +12,4 @@ two:
   calories: 1
   protients: 1
   carbohydrates: MyString
-  integer: MyString
   fats: 1

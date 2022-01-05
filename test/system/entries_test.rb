@@ -17,7 +17,6 @@ class EntriesTest < ApplicationSystemTestCase
     fill_in "Calories", with: @entry.calories
     fill_in "Carbohydrates", with: @entry.carbohydrates
     fill_in "Fats", with: @entry.fats
-    fill_in "Integer", with: @entry.integer
     fill_in "Meal type", with: @entry.meal_type
     fill_in "Protients", with: @entry.protients
     click_on "Create Entry"
@@ -33,7 +32,6 @@ class EntriesTest < ApplicationSystemTestCase
     fill_in "Calories", with: @entry.calories
     fill_in "Carbohydrates", with: @entry.carbohydrates
     fill_in "Fats", with: @entry.fats
-    fill_in "Integer", with: @entry.integer
     fill_in "Meal type", with: @entry.meal_type
     fill_in "Protients", with: @entry.protients
     click_on "Update Entry"
