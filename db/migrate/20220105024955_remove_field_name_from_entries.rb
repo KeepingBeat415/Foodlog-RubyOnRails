@@ -1,0 +1,5 @@
+class RemoveFieldNameFromEntries < ActiveRecord::Migration[7.0]
+  def change
+    remove_column :entries, :integer, :string
+  end
+end
